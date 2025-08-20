@@ -141,10 +141,8 @@ async function loadPage(page) {
     currentPage = page;
     const data = await fetchGameDetails(page);
 
-    const games = data?.data?.pages || [];
-
-    const totalPages = data?.data?.total_page || 10;
-
+    const games = data || [];
+const totalPages = TOTAL_PAGES;
     renderGames(games);
     renderPagination(totalPages, page);
 }
