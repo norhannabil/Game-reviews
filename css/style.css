@@ -1,0 +1,132 @@
+
+:root{
+    --lightpurple: #ff3be5;
+    --darkBlue: #1a1a1a;
+    --white: #ffffff;
+    --darkpurple:#68385d;
+    --card-text: #bfc1c8;
+    --darkGrey: #222530;
+    
+}
+
+body{
+    background-color:#121212;
+    
+    background-color: #272B30;
+    font-family: 'Comic Neue', cursive;
+
+}
+.game-img  {
+  background-image: url(../images/banner.png);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+
+  
+}
+nav.navbar.navbar-expand-lg {
+    background-color: var(--darkpurple);
+}
+
+ a.navbar-brand {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+   padding-left: 10px;
+    top: 10px;
+}
+
+.nav-item{
+    padding: 3px;
+   transition :all 0.5s;
+}
+    .navbar-expand-lg .navbar-nav .nav-link.active{
+        color: var(--lightpurple);
+    }
+    .navbar-expand-lg .navbar-nav .nav-link:hover{
+color: var(--lightpurple);
+}
+
+
+   
+
+
+
+
+
+
+
+/*section*/
+
+.card {
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(32, 35, 40);
+    border-image: initial;
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+.card:hover {
+    scale: 1.1;
+}
+.card-img-top {
+    padding: 10px;
+    opacity: .5;
+    transition: all 1s;
+    height: 150px;
+}
+.card-title {
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 16.8px;
+    margin: 0 0 8px;
+    text-transform: capitalize;
+   
+}
+.card-body span {
+    top: 10px;
+    right: 10px;
+    background-color: #446597;
+    transition: all 1s;
+    cursor: pointer;
+}
+.card-body span:hover{
+    scale: 1.1;
+    background-color: #68385d; 
+}
+
+.card-text {
+    color: #939598;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 800;
+  
+}
+
+.card-footer {
+    border-top: 2px solid #202328;
+} 
+.card-footer a {
+    background-color: #32383E;
+    font-size: 10.5px;
+    padding: 3.675px 6.825px;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--white);
+    border-radius: 30px;
+}
+   
+  .div-footer{
+    background-color: var(--darkBlue);
+  } 
+
+.div-footer h5{
+    color: var(--darkpurple);
+
+}
+ul.pagination{
+    background-color: var(--darkpurple);
+    color: white;
+}
